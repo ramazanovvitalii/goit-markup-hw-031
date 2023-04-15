@@ -230,7 +230,7 @@ img {
     gap: 24px;
 }
 .element {
-    flex-basis: calc((100% - 3 * 24px));
+    width: calc((100% - 72px) / 4);
 }
 .comand {
     padding: 120px 0;
