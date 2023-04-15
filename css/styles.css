@@ -19,6 +19,7 @@ body {
       letter-spacing: 0.03em;
       text-transform: uppercase;
       color: var(--iris);
+      margin-right: 76px;
 }
       
 .link {
@@ -193,6 +194,9 @@ body {
 .page {
     display: flex;
     gap: 40px;
+}
+.nav {
+    padding: 24px 0;
 }
 
 
