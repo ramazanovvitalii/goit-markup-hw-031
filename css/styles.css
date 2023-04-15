@@ -19,6 +19,7 @@ body {
       letter-spacing: 0.03em;
       text-transform: uppercase;
       color: var(--iris);
+}
       
 .link {
     text-decoration: none;
@@ -172,7 +173,8 @@ body {
     color: var(--cloud);
 }
 .header {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+
 }
 .navigator {
     display: flex;
