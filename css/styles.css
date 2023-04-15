@@ -19,31 +19,25 @@ body {
       letter-spacing: 0.03em;
       text-transform: uppercase;
       color: var(--iris);
-      margin-right: 76px;
-      display: flex;
-      gap: 40px;
-}
+      
 .link {
     text-decoration: none;
 }
 
 .span {
     color: var(--navy-blue);
-    margin-right: 76px;
-    display: flex;
-    gap: 40px;
+   
 }
 .list {
      list-style: none;
 }
- .nav {
+.nav {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    padding: 24px 0;
-
+    
  }
 .nav:hover,
 .nav:focus {
@@ -52,8 +46,7 @@ body {
 }
 .contakt {
     font-style: normal;
-    display: flex;
-    gap: 40px;
+   
 }
 .contakt {
     font-size: 16px;
@@ -64,6 +57,10 @@ body {
 .contakt:hover,
 .contakt:focus {
     color: var(--ocean);
+}
+.contakts {
+    display: flex;
+    gap: 40px;
 }
 .hero {
     background-color: var(--navy-blue);
@@ -190,6 +187,10 @@ body {
     display: flex;
     align-items: center;
 
+}
+.page {
+    display: flex;
+    gap: 40px;
 }
 
 
