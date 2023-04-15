@@ -243,7 +243,7 @@ body {
     gap: 24px;
 }
 .images {
-    flex-basis: calc((100% - 48px) / 3)
+    flex-basis: calc((100% - 48px) / 3);
 }
 .item {
     display: flex;
