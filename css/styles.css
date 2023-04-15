@@ -151,12 +151,16 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--iris);
-    cursor: pointer;    
+    cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;    
 }
 .portfolio:hover,
 .portfolio:focus {
     color: var(--back-color);
     background-color: var(--ocean);
+    border: 1px solid transparent;
 }
 .footer-studio {
     color: var(--cloud);
@@ -248,6 +252,29 @@ body {
 .people {
     padding: 32px 16px;
     border-radius: 0px 0px 4px 4px;
+}
+.offer {
+    padding: 96px 0 120px;
+}
+.port {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+.discript {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px
+}
+.bank {
+    width: calc((100% - 48px) / 3);
+}
+.interface {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none; 
 }
 
 
