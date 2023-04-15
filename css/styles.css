@@ -133,7 +133,7 @@ img {
 }
 .team-item {
     background-color: var(--back-color);
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .footer {
     background-color: var(--navy-blue);
@@ -230,7 +230,7 @@ img {
     gap: 24px;
 }
 .element {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .comand {
     padding: 120px 0;
@@ -246,7 +246,7 @@ img {
     gap: 24px;
 }
 .what {
-    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .item {
     display: flex;
