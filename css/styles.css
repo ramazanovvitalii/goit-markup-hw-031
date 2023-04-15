@@ -164,7 +164,18 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: var(--cloud);
-} 
-
+}
+.header {
+    border-bottom: 1px solid #e7e9fc
+}
+.navigator {
+    display: flex;
+    align-items: center;
+}
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    
+}
 
 
