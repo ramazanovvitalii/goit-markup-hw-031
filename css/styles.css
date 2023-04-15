@@ -227,7 +227,7 @@ img {
 }
 .techno {
     display: flex;
-    gap: 24px;
+    gap: 16px;
 }
 .element {
      flex-basis: calc((100% - 72px) / 4);
