@@ -117,6 +117,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navy-blue);
+    margin-bottom: 72px;
 }
 .foto {
     background-color: var(--cloud);
@@ -215,6 +216,22 @@ body {
 }
 .element {
     width: calc((100% - 72px) / 4);
+}
+.comand {
+    padding-bottom: 120px;
+}
+.foto {
+    padding-bottom: 120px; 
+}
+.work {
+    margin-bottom: 72px;
+}
+.rectangle {
+    display: flex;
+    gap: 24px;
+}
+.images {
+    width: calc((100% - 48px) / 3);
 }
 
 
