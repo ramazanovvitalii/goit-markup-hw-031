@@ -227,10 +227,12 @@ img {
 }
 .techno {
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
 .element {
-     flex-basis: calc((100% - 72px) / 4);
+    margin-right: 24px;
+    
+    flex-basis: calc((100% - 72px) / 4);
 }
 .comand {
     padding: 120px 0;
