@@ -245,7 +245,7 @@ img {
     display: flex;
     gap: 24px;
 }
-.img {
+.what {
     width: calc((100% - 48px) / 3);
 }
 .item {
