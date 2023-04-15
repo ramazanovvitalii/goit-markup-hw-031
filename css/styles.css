@@ -21,6 +21,9 @@ body {
       color: var(--iris);
       margin-right: 76px;
 }
+img {
+    display: block;
+}
       
 .link {
     text-decoration: none;
