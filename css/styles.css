@@ -134,6 +134,7 @@ body {
 }
 .footer {
     background-color: var(--navy-blue);
+    padding: 100px 0;
     
 }
 .studio {
@@ -169,6 +170,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:  var(--iris);
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .studio {
     color: var(--cloud);
@@ -185,6 +188,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: var(--cloud);
+    max-width: 264px;
 }
 .header {
     border-bottom: 1px solid #e7e9fc;
