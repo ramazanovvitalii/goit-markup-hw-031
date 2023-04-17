@@ -233,8 +233,7 @@ img {
 }
 .element {
     margin-right: 24px;
-    margin: 10px 0 (@variable * 2) 10px;
-
+    width: calc((100% - 72px) / 4);
    
 }
 .comand {
