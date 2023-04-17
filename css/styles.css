@@ -134,6 +134,7 @@ img {
 .team-item {
     background-color: var(--back-color);
     flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .footer {
     background-color: var(--navy-blue);
@@ -208,6 +209,7 @@ img {
 .container {
     width: 1158px;
     padding: 0 15px;
+    margin: 0 auto; 
 
 }
 .discript {
@@ -231,8 +233,9 @@ img {
 }
 .element {
     margin-right: 24px;
+    flex-basis: calc(100% - 3 * 24px);
 
-   width: calc((100% - 3 * 24px) / 4)
+   
 }
 .comand {
     padding: 120px 0;
