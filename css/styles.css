@@ -236,7 +236,7 @@ img {
     gap: 24px;
 }
 .element {
-    margin-right: 24px;
+    margin-right: 0px;
     flex-basis: calc((100% - 72px) / 4);
    
 }
