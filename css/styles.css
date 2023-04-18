@@ -10,6 +10,8 @@ body {
     font-family: "Roboto", sans-serif;
     color: var(--slate);
     background-color: var(--back-color);
+    margin-left: auto;
+    margin-right: auto;
 }
 .logo {
      font-family: "Raleway", sans-serif;
