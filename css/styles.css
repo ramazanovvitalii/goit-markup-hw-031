@@ -70,6 +70,7 @@ img {
 .contakts {
     display: flex;
     gap: 40px;
+     
 }
 .hero {
     background-color: var(--navy-blue);
@@ -224,6 +225,8 @@ img {
 .page {
     display: flex;
     gap: 40px;
+    margin: 0;
+    padding: 0;
 }
 .nav {
     padding: 24px 0;
