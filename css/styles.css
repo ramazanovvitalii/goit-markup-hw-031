@@ -1,10 +1,10 @@
 :root {
-     --back-color: #ffffff;
-     --navy-blue: #2e2f42;
-     --cloud: #f4f4fd;
-     --iris: #4d5ae5;
-     --ocean: #404bbf;
-     --slate: #434455;
+    --back-color: #ffffff;
+    --navy-blue: #2e2f42;
+    --cloud: #f4f4fd;
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --slate: #434455;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -16,14 +16,14 @@ body {
     padding: 0%;
 }
 .logo {
-     font-family: "Raleway", sans-serif;
-     font-weight: 800;
-     font-size: 18px;
-     line-height: 1.17;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      color: var(--iris);
-      margin-right: 76px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+    margin-right: 76px;
 }
 img {
     display: block;
@@ -46,6 +46,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    margin: 0%;
     
  }
 .nav:hover,
@@ -62,6 +63,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
+    margin-right: 0%;
+    
+    
 }
 .contakt:hover,
 .contakt:focus {
@@ -70,11 +74,14 @@ img {
 .contakts {
     display: flex;
     gap: 40px;
+    
+    
      
 }
 .hero {
     background-color: var(--navy-blue);
     padding: 188px 0;
+    
 }
 .hero-solution {
     font-size: 56px;
@@ -83,6 +90,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--back-color);
     max-width: 496px; 
+    margin: auto;
 }
 .btn {
     background-color: var(--iris);
@@ -99,6 +107,7 @@ img {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: auto;
 }
 .btn:hover,
 .btn:focus {
@@ -110,16 +119,16 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    margin-bottom: 8px;
-    text-align: center;
-    margin-bottom: 8px;
+    text-align: left;
+    
 }
 .front {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
-    text-align: center;
+    text-align: left;
+    
 }
 .team {
     font-size: 36px;
@@ -131,7 +140,7 @@ img {
     margin-bottom: 72px;
 }
 .foto {
-    background-color: var(--cloud);
+    
 }
 .foto-studio {
     background-color: var(-back-color);
@@ -219,7 +228,7 @@ img {
 }
 .discript {
     display: flex;
-    align-items: center;
+    align-items: ;
 
 }
 .page {
@@ -239,24 +248,34 @@ img {
     gap: 24px;
     margin: 0;
     padding: 0;
+   
 }
 .element {
     margin-right: 0px;
     flex-basis: calc((100% - 72px) / 4);
    
+   
 }
 .comand {
     padding: 120px 0;
+    background-color: var(--cloud);
 }
 .foto {
     padding-bottom: 120px; 
 }
 .work {
-    margin-bottom: 72px;
+    font-family: 'Roboto';
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
 }
 .rectangle {
     display: flex;
     gap: 24px;
+    margin-left: auto;
 }
 .what {
     flex-basis: calc((100% - 72px) / 4);
@@ -282,10 +301,12 @@ img {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 48px
-}
+    row-gap: 48px;
+    position: initial;
+    
+}   
 .bank {
-   width: calc(100% - 48px) / 3;
+   width: calc((100% - 48px) / 3);
 }
 .interface {
     padding: 32px 16px;
