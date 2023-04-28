@@ -123,7 +123,7 @@ img {
     color: var(--navy-blue);
     text-align: center;
     margin-bottom: 8px;
-    margin: 0;
+   
 
     
 }
@@ -163,7 +163,7 @@ img {
     color: var(--navy-blue);
     margin-bottom: 72px;
     text-align: center;
-    margin: 0;
+   
 }
 .foto {
     
@@ -298,6 +298,7 @@ img {
     font-size: 36px;
     line-height: 40px;
     margin: 0;
+    margin-bottom: 72px;
 }
 .rectangle {
     display: flex;
