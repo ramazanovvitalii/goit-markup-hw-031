@@ -6,6 +6,9 @@
     --ocean: #404bbf;
     --slate: #434455;
 }
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: "Roboto", sans-serif;
     color: var(--slate);
@@ -54,59 +57,99 @@ img {
      color: var(--ocean) ;
 
 }
-.contakt {
+.mail {
     font-style: normal;
    
 }
-.contakt {
+.mail {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
     margin-right: 0;
-    
-    
+    position: absolute;
+    width: 153px;
+    height: 24px;
+    left: 940px;
+    top: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;      
 }
-.contakt:hover,
-.contakt:focus {
+.mail:hover,
+.mail:focus {
     color: var(--ocean);
 }
+.tel {
+    font-style: normal;
+}
+.tel{
+    position: absolute;
+    width: 151px;
+    height: 24px;
+    left: 1133px;
+    top: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+.tel:hover,
+.tel:focus{
+    color: var(--ocean);
+}
+
 .contakts {
-    display: flex;
-    gap: 40px;
-    margin-left: auto;
-    padding: 0;
-    
-    
-     
+    padding: 0;    
 }
 .hero {
     background-color: var(--navy-blue);
-    padding: 188px 0;
-    
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px;
 }
 .hero-solution {
+    position: absolute;
+    width: 496px;
+    height: 120px;
+    left: 472px;
+    top: 260px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
     font-size: 56px;
-    line-height: 1.07;
+    line-height: 60px;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--back-color);
-    max-width: 496px; 
     margin: 0;
+    
+    
 }
 .btn {
     background-color: var(--iris);
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    letter-spacing: 0.04em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    position: absolute;
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
     color: var(--back-color);
     cursor: pointer;
     display: block;
-    min-width: 169px;
-    height: 56px;
+    min-width: auto;
     border: none;
     border-radius: 4px;
     margin: auto;
@@ -181,9 +224,7 @@ img {
     padding: 100px 0;
     
 }
-.studio {
-    color: var(--back-color);
-}
+
 .text {
     color: var(-cloud);
     margin: 0;
@@ -224,11 +265,14 @@ img {
 }
 .studio {
     color: var(--cloud);
-    font-family: 'Roboto';
+    width: 71px;
+    font-family: 'Raleway';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;  
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 } 
 .text {
     font-family: 'Roboto';
@@ -334,7 +378,6 @@ img {
     column-gap: 24px;
     row-gap: 48px;
     position: initial;
-    margin: 0%;
     padding: 0%;
     
 }   
