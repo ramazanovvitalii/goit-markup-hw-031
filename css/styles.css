@@ -106,7 +106,9 @@ img {
 }
 
 .contakts {
-    padding: 0;    
+    padding: 0;
+    display: flex;
+    gap: 40px;    
 }
 .hero {
     background-color: var(--navy-blue);
@@ -114,6 +116,7 @@ img {
     height: 600px;
     left: 0px;
     top: 72px;
+    padding: 188px 0;
 }
 .hero-solution {
     position: absolute;
@@ -130,6 +133,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--back-color);
     margin: 0;
+    max-width: 496px;
     
     
 }
@@ -149,7 +153,7 @@ img {
     color: var(--back-color);
     cursor: pointer;
     display: block;
-    min-width: auto;
+    min-width: 169px;
     border: none;
     border-radius: 4px;
     margin: auto;
